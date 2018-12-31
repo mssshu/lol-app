@@ -1,0 +1,45 @@
+{
+  "name": "match-stats",
+  "proxy": "https://na1.api.riotgames.com",
+  "homepage": "http://myname.github.io/myapp",
+  "version": "0.1.0",
+  "changeOrigin": true,
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.13.2",
+    "compression": "^1.7.3",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "fetch-with-proxy": "^1.1.0",
+    "helmet": "^3.15.0",
+    "http-proxy-middleware": "^0.19.1",
+    "leaguejs": "^1.10.1",
+    "mongoose": "^5.4.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.1.2"
+  }
+}
