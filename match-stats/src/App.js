@@ -7,7 +7,7 @@ class App extends Component {
     super(props); 
     this.state = {
       summoner:"C9 Sneaky",
-      accountId: 0
+      accountId: ''
     };
     this.updateSummoner.bind(this);
   }
